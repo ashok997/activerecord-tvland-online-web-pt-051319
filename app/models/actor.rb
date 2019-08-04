@@ -8,8 +8,8 @@ class Actor < ActiveRecord::Base
   
   def list_roles
     self.characters.collect do |character|
-      charcter.name
-      character.show_id.name
+      charcters.name
+      characters.show_id.name
     end
   end
 end
