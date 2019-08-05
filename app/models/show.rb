@@ -4,4 +4,5 @@ class Show < ActiveRecord::Base
   
   def build_network
   end
+  
 end
